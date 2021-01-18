@@ -5,11 +5,11 @@ nav {
   height: 48px;
   background-color: black;
   align-items: center;
-  padding: 10px;
+  padding: 10px 20px;
 }
 
-#apple-logo{
-    max-height: 100%;
+#apple-logo {
+  max-height: 100%;
 }
 
 nav .logo {
@@ -21,6 +21,7 @@ nav .logo {
   justify-content: center;
 }
 
-.fas.fa-grip-lines{
-    color:white;
+.fas.fa-grip-lines {
+  color: white;
 }
+

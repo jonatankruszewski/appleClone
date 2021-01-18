@@ -6,11 +6,16 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  font-family: "SF Pro Display";
+  font-size: 18px;
 }
 html {
   height: 100%;
 }
-
 .invisible {
   visibility: hidden;
+}
+:root {
+  --link: #2997ff;
+  --visited: #06c;
 }
