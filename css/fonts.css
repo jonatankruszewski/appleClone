@@ -1,39 +1,40 @@
 @font-face {
   font-family: "SF Pro Display";
-  src: url("../fonts/SF_UI_Font/sf-pro-display_bold.woff") format("woff2");
+  src: url("../fonts/SF_UI_Font/sf-pro-display_bold.woff2") format("woff2");
   font-weight: bold;
 }
 @font-face {
   font-family: "SF Pro Display";
-  src: url("../fonts/SF_UI_Font/sf-pro-display_regular.woff") format("woff2");
+  src: url("../fonts/SF_UI_Font/sf-pro-display_regular.woff2") format("woff2");
+ font-weight: 600;
 }
 @font-face {
   font-family: "SF Pro Display";
-  src: url("../fonts/SF_UI_Font/sf-pro-display_semibold.woff") format("woff2");
-  font-weight: 600;
+  src: url("../fonts/SF_UI_Font/sf-pro-display_thin.woff") format("woff");
+  font-weight: 300;
 }
 
 @font-face {
   font-family: "SF Pro Icons";
-  src: url("../fonts/SF_UI_Font/sf-pro-icons_semibold.woff") format("woff2");
+  src: url("../fonts/SF_UI_Font/sf-pro-icons_semibold.woff2") format("woff2");
   font-weight: 600;
 }
 @font-face {
   font-family: "SF Pro Icons";
-  src: url("../fonts/SF_UI_Font/sf-pro-icons_regular.woff") format("woff2");
+  src: url("../fonts/SF_UI_Font/sf-pro-icons_regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "SF Pro Text";
-  src: url("../fonts/SF_UI_Font/sf-pro-text_semibold.woff") format("woff2");
+  src: url("../fonts/SF_UI_Font/sf-pro-text_semibold.woff2") format("woff2");
   font-weight: 600;
 }
 @font-face {
   font-family: "SF Pro Text";
-  src: url("../fonts/SF_UI_Font/sf-pro-icons_regular.woff") format("woff2");
+  src: url("../fonts/SF_UI_Font/sf-pro-icons_regular.woff2") format("woff2");
 }
 @font-face {
   font-family: "SF Pro Text";
-  src: url("../fonts/SF_UI_Font/sf-pro-icons_light.woff") format("woff2");
+  src: url("../fonts/SF_UI_Font/sf-pro-icons_light.woff2") format("woff2");
   font-weight: 300;
 }
