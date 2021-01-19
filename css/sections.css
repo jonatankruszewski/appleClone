@@ -1,35 +1,13 @@
-section {
-  text-align: center;
-  height: 570px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 #section1,
-#section3, #section6, #section7 {
+#section3,
+#section6,
+#section7 {
   background-color: black;
   color: white;
 }
 #section2 {
   height: 592px;
 }
-.sectionWrapper {
-  margin: 2.5rem 0;
-}
-
-.imgWrapper {
-  width: 100%;
-  flex: 1;
-  margin: 2rem;
-}
-
-.image {
-  height: 100%;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
 .image_01 {
   background-image: url("../images/hero_static__k8unjy3rn32a_small_2x.jpg");
 }
@@ -42,50 +20,33 @@ section {
 
 .image_03 {
   background-image: url("../images/04.jpg");
-  background-position-y: 40%;
-  background-size:  auto 90%;
+  /* background-position-y: 30%; */
+  background-size: 160% auto;
 }
 .image_04 {
   background-image: url("../images/06.jpg");
   background-position-y: 40%;
-  background-size:  auto 
+  background-size: 100% auto;
 }
 .image_05 {
   background-image: url("../images/08.jpg");
   background-position-y: 20%;
-  background-size:  auto 
+  background-size: auto;
 }
 .image_06 {
   background-image: url("../images/09.jpg");
   background-position-y: 20%;
-  background-size:  auto 
+  background-size: auto;
 }
-.headline {
-  font-size: 32px;
-  line-height: 1.125;
-  font-weight: 600;
-  font-family: "SF Pro Display";
+#section3 {
+  height: 500px;
 }
-
-.subhead {
-  font-size: 19px;
-  line-height: 1.5;
-  font-weight: lighter;
-  font-family: "SF Pro Display";
+#section3 .sectionWrapper {
+  margin: 1.2rem 0;
 }
-
-.icon {
-  color: var(--link);
-  text-decoration: none;
-  font-weight: 600;
-  margin-top: 12px;
-  display: block;
+#section3 .imgWrapper {
+  margin: .8rem 0;
 }
-
-.icon:hover {
-  cursor: pointer;
-}
-
-.icon:visited {
-  color: var(--visited);
+#section3 img {
+  max-width: 110px;
 }
