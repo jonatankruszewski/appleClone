@@ -6,7 +6,7 @@ section {
   align-items: center;
 }
 #section1,
-#section3 {
+#section3, #section6, #section7 {
   background-color: black;
   color: white;
 }
@@ -40,6 +40,26 @@ section {
   background-size: auto 240%;
 }
 
+.image_03 {
+  background-image: url("../images/04.jpg");
+  background-position-y: 40%;
+  background-size:  auto 90%;
+}
+.image_04 {
+  background-image: url("../images/06.jpg");
+  background-position-y: 40%;
+  background-size:  auto 
+}
+.image_05 {
+  background-image: url("../images/08.jpg");
+  background-position-y: 20%;
+  background-size:  auto 
+}
+.image_06 {
+  background-image: url("../images/09.jpg");
+  background-position-y: 20%;
+  background-size:  auto 
+}
 .headline {
   font-size: 32px;
   line-height: 1.125;
