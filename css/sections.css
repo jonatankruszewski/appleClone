@@ -107,3 +107,27 @@ sup {
   max-width: min-content;
   white-space: nowrap;
 }
+#section8{
+  padding:1rem;
+}
+#section8 ul {
+  padding: 1em 0;
+  font-size: 1em;
+  font-family: "SF Pro Text";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--lightText);
+}
+
+#section8 ul:first-child li {
+  padding-bottom: 9.6px;
+}
+
+.liWrapper{
+  display:flex;
+  justify-content: space-between;
+  color:black;
+  align-items: center;
+  padding: .5rem 0
+}

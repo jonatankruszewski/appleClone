@@ -1,3 +1,8 @@
+:root {
+  --link: #2997ff;
+  --visited: #06c;
+  --lightText: #86868b;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,19 +21,22 @@ html {
 .invisible {
   visibility: hidden;
 }
-:root {
-  --link: #2997ff;
-  --visited: #06c;
-}
+
 hr {
-  border: 0.5px solid rgba(211, 211, 211, .2);
+  border: 0.5px solid;
+  border-color: var(--lightText);
   width: 100%;
 }
-ul{
+
+ul {
+  padding: 0;
   text-decoration: none;
   list-style-type: none;
   text-align: left;
+  width: 100%;
 }
-ul li{
-  
+
+ul li {
+  width:100%;
+  /* padding: 1rem 0; */
 }
