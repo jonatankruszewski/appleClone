@@ -36,8 +36,8 @@
 }
 .image_06 {
   background-image: url("../images/09.jpg");
-  background-position-y: 20%;
-  background-size: auto;
+  background-position-y: 00%;
+  background-size: cover;
 }
 #section3 {
   height: 500px;
@@ -70,4 +70,24 @@
 #section5 .sectionWrapper,
 #section5 .imgWrapper {
   margin-bottom: 0;
+}
+#section6{
+  min-height: max-content;
+}
+#section6 *{
+  border:1px solid blue;
+}
+#section6 .imgWrapper{
+  margin:0;
+  height:380px;
+}#section6 .sectionWrapper{
+  margin:1rem 0 2rem 0;
+}
+.flex-h{
+  display: flex;
+  border: 2px solid red!important;
+  justify-content: space-around;
+}
+sup{
+  font-size: 12px;;
 }
