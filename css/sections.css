@@ -10,6 +10,12 @@ section {
   background-color: black;
   color: white;
 }
+#section2 {
+  height: 592px;
+}
+.sectionWrapper {
+  margin: 2.5rem 0;
+}
 
 .imgWrapper {
   width: 100%;
@@ -17,17 +23,11 @@ section {
   margin: 2rem;
 }
 
-.sectionWrapper {
-  margin: 2.5rem 0;
-}
-
 .image {
-  min-height: 0px;
   height: 100%;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  max-width: 100%;
 }
 
 .image_01 {
@@ -44,20 +44,14 @@ section {
   font-size: 32px;
   line-height: 1.125;
   font-weight: 600;
-  letter-spacing: 0.004em;
   font-family: "SF Pro Display";
 }
 
 .subhead {
   font-size: 19px;
   line-height: 1.5;
-  letter-spacing: 0.004em;
   font-weight: lighter;
   font-family: "SF Pro Display";
-}
-
-#section2 {
-  height: 592px;
 }
 
 .icon {

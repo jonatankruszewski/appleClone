@@ -14,7 +14,7 @@ To include it, you can add it as an object in your HTML file.
 To change its properties, you can open it and modify them.
 
 regarding the sections.
-we can split
+we can split🥁
 
 
 fonts
