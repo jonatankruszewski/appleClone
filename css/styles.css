@@ -20,3 +20,15 @@ html {
   --link: #2997ff;
   --visited: #06c;
 }
+hr {
+  border: 0.5px solid rgba(211, 211, 211, .2);
+  width: 100%;
+}
+ul{
+  text-decoration: none;
+  list-style-type: none;
+  text-align: left;
+}
+ul li{
+  
+}
