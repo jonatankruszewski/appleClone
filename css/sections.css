@@ -20,13 +20,14 @@
 
 .image_03 {
   background-image: url("../images/04.jpg");
-  /* background-position-y: 30%; */
-  background-size: 160% auto;
+  background-position-y: 5%;
+  background-size: 45% auto;
 }
+
 .image_04 {
   background-image: url("../images/06.jpg");
   background-position-y: 40%;
-  background-size: 100% auto;
+  background-size: 210%;
 }
 .image_05 {
   background-image: url("../images/08.jpg");
@@ -45,8 +46,28 @@
   margin: 1.2rem 0;
 }
 #section3 .imgWrapper {
-  margin: .8rem 0;
+  margin: 0.8rem 0;
 }
 #section3 img {
   max-width: 110px;
+}
+#section4 {
+  height: 530px;
+}
+#section4 .imgWrapper {
+  margin: 0;
+}
+#section4 .sectionWrapper {
+  margin-top: 0;
+}
+#section4 .image {
+  margin: 0;
+  width: 100%;
+}
+#section5 {
+  height: 510px;
+}
+#section5 .sectionWrapper,
+#section5 .imgWrapper {
+  margin-bottom: 0;
 }
