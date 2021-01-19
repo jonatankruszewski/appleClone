@@ -4,6 +4,9 @@
   background-color: black;
   color: white;
 }
+#section1 .imgWrapper {
+  height: 330px;
+}
 #section2 {
   height: 592px;
 }
@@ -19,28 +22,31 @@
 
 .image_03 {
   background-image: url("../images/04.jpg");
-  background-position-y: 5%;
-  background-size: 45% auto;
+  background-size: auto 100%;
 }
 
 .image_04 {
   background-image: url("../images/06.jpg");
   background-position-y: 40%;
-  background-size: 210%;
+  background-size: auto 140%;
 }
 .image_05 {
   background-image: url("../images/08.jpg");
-  background-position-y: 20%;
-  background-size: auto;
 }
 .image_06 {
   background-image: url("../images/09.jpg");
-  background-position-y: 00%;
+  background-position-y: 0%;
   background-size: cover;
 }
+
+#section6 .imgWrapper {
+  max-width: 800px;
+ }
 .image_07 {
   background-image: url("../images/10.jpg");
-  background-size: 125% auto;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #section3 {
   height: 500px;
@@ -67,9 +73,11 @@
   margin: 0;
   width: 100%;
 }
+
 #section5 {
   height: 510px;
 }
+
 #section5 .sectionWrapper,
 #section5 .imgWrapper {
   margin-bottom: 0;
@@ -80,7 +88,7 @@
 
 #section6 .imgWrapper {
   margin: 0;
-  height: 380px;
+  min-height: 300px;
 }
 #section6 .sectionWrapper {
   margin: 1rem 0 2rem 0;
@@ -107,11 +115,8 @@ sup {
   max-width: min-content;
   white-space: nowrap;
 }
-#section8{
-  padding:1rem;
-}
-#section8 ul {
-  padding: 1em 0;
+#section8 {
+  padding: 1rem;
   font-size: 1em;
   font-family: "SF Pro Text";
   font-size: 12px;
@@ -120,14 +125,44 @@ sup {
   color: var(--lightText);
 }
 
+#section8 ul {
+  padding: 1rem 0 0 0;
+}
+
 #section8 ul:first-child li {
   padding-bottom: 9.6px;
 }
 
-.liWrapper{
-  display:flex;
+.liWrapper {
+  display: flex;
   justify-content: space-between;
-  color:black;
+  color: black;
   align-items: center;
-  padding: .5rem 0
+  padding: 0.5rem 0;
+}
+.disclousure {
+  text-align: left;
+  width: 100%;
+}
+.disclousure > * {
+  padding-top: 1rem;
+}
+.wrapper > :first-child {
+  padding-bottom: 0.5rem;
+}
+.wrapper a {
+  text-decoration: none;
+}
+.p-x-5px {
+  padding: 0 5px;
+}
+.wrapper a:visited {
+  color: black;
+}
+.retailer {
+  color: var(--visited);
+  text-decoration: none;
+}
+.retailer a:hover {
+  color: var(--visited);
 }

@@ -10,6 +10,7 @@ section {
 }
 
 .imgWrapper {
+  min-height:200px;
   width: 100%;
   flex: 1;
   margin: 2rem 0;
@@ -43,7 +44,7 @@ section {
   display: block;
 }
 
-.icon:hover {
+a:hover {
   cursor: pointer;
 }
 
