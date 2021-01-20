@@ -10,7 +10,7 @@ section {
 }
 
 .imgWrapper {
-  min-height:200px;
+  min-height: 200px;
   width: 100%;
   flex: 1;
   margin: 2rem 0;
@@ -52,6 +52,27 @@ a:hover {
   color: var(--visited);
 }
 
-.fa-chevron-right{
+.fa-chevron-right {
   font-size: 13px;
 }
+
+.grid {
+  display: grid;
+  border: 1px solid blue;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 10px;
+  row-gap: 0px;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    border: 1px solid red;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    column-gap: 0;
+  }
+ 
+}
+

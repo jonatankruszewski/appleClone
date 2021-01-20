@@ -39,15 +39,13 @@
   background-size: cover;
 }
 
-#section6 .imgWrapper {
-  max-width: 800px;
- }
 .image_07 {
   background-image: url("../images/10.jpg");
-  background-size: cover ;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 #section3 {
   height: 500px;
 }
@@ -83,13 +81,14 @@
   margin-bottom: 0;
 }
 #section6 {
-  min-height: max-content;
+  height: 100%;
 }
 
 #section6 .imgWrapper {
   margin: 0;
   min-height: 300px;
 }
+
 #section6 .sectionWrapper {
   margin: 1rem 0 2rem 0;
 }
@@ -165,4 +164,15 @@ sup {
 }
 .retailer a:hover {
   color: var(--visited);
+}
+@media (min-width: 900px) {
+  .image_07 {
+    background-position-y: 60%;
+  }
+  .image_06 {
+    background-position: center;
+    background-position-y: 0;
+    background-size: auto 400%;
+    background-repeat: no-repeat;
+  }
 }
