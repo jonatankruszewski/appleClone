@@ -169,10 +169,31 @@ sup {
   .image_07 {
     background-position-y: 60%;
   }
+  .grid > * {
+    min-height: 600px;
+  }
+  #section7 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .image_01 {
+    background-image: url("../images/hero_Static.jpg");
+  }
+  .image_04 {
+    background-image: url("../images/Ipad_H.jpg");
+    background-position-y: 10%;
+    background-size: auto 90%;
+  }
+  #section7 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
   .image_06 {
     background-position: center;
     background-position-y: 0;
-    background-size: auto 400%;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }

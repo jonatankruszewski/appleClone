@@ -62,16 +62,14 @@ a:hover {
   grid-template-rows: 1fr;
   column-gap: 10px;
   row-gap: 0px;
+  padding: 0 10px;
 }
 
 @media (max-width: 900px) {
   .grid {
-    border: 1px solid red;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
     row-gap: 10px;
     column-gap: 0;
   }
- 
 }
-
